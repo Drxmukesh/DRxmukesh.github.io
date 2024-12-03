@@ -51,6 +51,43 @@ h2 {
     font-size: 2em;
     text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 15px #0ff;
 }
+#projects-github {
+    background-color: #1e1e1e;  /* Dark background for the section */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+#projects-github h2 {
+    color: #ff00cc;  /* Neon magenta color for headers */
+    margin-bottom: 15px;
+    font-size: 2em;
+    text-shadow: 0 0 10px #ff00cc, 0 0 20px #ff00cc, 0 0 30px rgba(255, 0, 204, 0.6);
+}
+
+#projects-github ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#projects-github ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #fff;
+}
+
+#projects-github a {
+    color: #ff66ff;  /* Neon pink color for links */
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0 0 5px #ff66ff, 0 0 10px #ff66ff;
+}
+
+#projects-github a:hover {
+    color: #ff00cc;  /* Change link color on hover */
+    text-shadow: 0 0 10px #ff00cc, 0 0 20px #ff66ff;
+}
+
 
 ul {
     list-style: none;
