@@ -1,154 +1,64 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-color: #1e1e1e;
-    color: #fff;
-    margin: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
 }
 
 header {
-    background-color: #222;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  background: #212121;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
 }
 
 header h1 {
-    margin: 0;
-    font-size: 3em;
-    color: #0ff;
-    text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff;
+  margin: 0;
+  font-size: 2.5rem;
 }
 
 header p {
-    margin-top: 10px;
-    font-size: 1.2em;
-    color: #fff;
-}
-
-main {
-    padding: 20px;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: #aaa;
 }
 
 section {
-    margin-bottom: 20px;
-    background-color: #333;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
 }
 
 h2 {
-    color: #0ff;
-    margin-bottom: 15px;
-    font-size: 2em;
-    text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 15px #0ff;
-}
-#projects-github {
-    background-color: #1e1e1e;  /* Dark background for the section */
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  color: #444;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5rem;
 }
 
-#projects-github h2 {
-    color: #ff00cc;  /* Neon magenta color for headers */
-    margin-bottom: 15px;
-    font-size: 2em;
-    text-shadow: 0 0 10px #ff00cc, 0 0 20px #ff00cc, 0 0 30px rgba(255, 0, 204, 0.6);
+.projects ul,
+.socials {
+  list-style: none;
+  padding: 0;
 }
 
-#projects-github ul {
-    list-style: none;
-    padding-left: 0;
+.projects li,
+.socials li {
+  margin: 0.5rem 0;
 }
 
-#projects-github ul li {
-    margin-bottom: 10px;
-    font-size: 1.1em;
-    color: #fff;
+a {
+  color: #007bff;
+  text-decoration: none;
 }
 
-#projects-github a {
-    color: #ff66ff;  /* Neon pink color for links */
-    text-decoration: none;
-    font-weight: bold;
-    text-shadow: 0 0 5px #ff66ff, 0 0 10px #ff66ff;
-}
-
-#projects-github a:hover {
-    color: #ff00cc;  /* Change link color on hover */
-    text-shadow: 0 0 10px #ff00cc, 0 0 20px #ff66ff;
-}
-
-
-ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-ul li {
-    margin-bottom: 10px;
-    font-size: 1.1em;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-form label {
-    margin-top: 10px;
-    font-size: 1.1em;
-    color: #fff;
-}
-
-form input, form textarea, form button {
-    padding: 10px;
-    margin-top: 5px;
-    border: 2px solid #0ff;
-    border-radius: 5px;
-    font-size: 1em;
-    background-color: #222;
-    color: #fff;
-    outline: none;
-}
-
-form input:focus, form textarea:focus, form button:focus {
-    border-color: #0ff;
-    box-shadow: 0 0 5px #0ff;
-}
-
-form button {
-    background-color: #0ff;
-    color: black;
-    border: none;
-    cursor: pointer;
-    margin-top: 10px;
-    font-weight: bold;
-}
-
-form button:hover {
-    background-color: #00e6e6;
-    text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+a:hover {
+  text-decoration: underline;
 }
 
 footer {
-    text-align: center;
-    background-color: #222;
-    color: #fff;
-    padding: 10px 0;
-    margin-top: 20px;
-    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.6);
-}
-
-footer p {
-    font-size: 1.1em;
+  text-align: center;
+  padding: 1rem;
+  background: #212121;
+  color: #ccc;
 }
